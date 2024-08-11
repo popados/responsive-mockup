@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>responsive-mockup-page</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+    <header>
+
+        <div class="header-container">
+            <ul class="menu-list">
+                <li><a href="#">Minimillista</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"><b>About Us</b></a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <button aria-expanded="false" aria-controls="menu-list">
+                        <span class="open">&#x2630;</span>
+                        <span class="close">&times;</span>
+                        <span>Menu</span>
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <h1>About Us</h1>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.
+            The point of using Lorem Ipsum is that is has a more-less normal distribution of
+            letters..
+        </p>
+
+    </div>
+    <div class="image-container">
+
+        <div class="contains-image">\
+            <div>
+                <img class="image" src="./img/portfolio/portfolio-one.png" alt="">
+                <h3>Image 1</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <div class="contains-image">
+            <div>
+                <img class="image" src="./img/portfolio/portfolio-two.png" alt="">
+                <h3>Image 1</h3>
+            </div>
+            <p>Ridiculus et malesuada eros pharetra conubia fringilla. Suscipit dis interdum habitant eget nullam ex
+                vestibulum pulvinar class. Platea pharetra sodales urna lobortis fermentum eget tellus iaculis. </p>
+        </div>
+        <div class="contains-image">
+            <div>
+                <img class="image" src="./img/portfolio/portfolio-three.png" alt="">
+                <h3>Image 1</h3>
+            </div>
+            <p>Velit ultrices himenaeos vivamus mauris elementum phasellus tortor viverra erat. Tortor molestie
+                curabitur malesuada hac, diam proin torquent porta in. Parturient lectus vehicula faucibus; maximus
+                netus gravida pretium senectus.</p>
+        </div>
+
+    </div>
+
+
+    <footer> </footer>
+    <script>
+
+        const navButton = document.querySelector("button[aria-expanded]");
+
+        function toggleNav({ target }) {
+            const expanded = target.getAttribute("aria-expanded") === "true" || false;
+            navButton.setAttribute("aria-expanded", !expanded);
+        }
+        navButton.addEventListener("click", toggleNav); </script>
+</body>
+
+</html>
