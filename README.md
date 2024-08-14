@@ -2,7 +2,11 @@
 <!-- markdownlint-disable MD041 -->
 <div id="top-of-doc"></div>
 
-# Readme File |
+# Readme File | Responsive Website
+
+> This project will help you begin training yourself to visualize grid layouts and flex containers in "design".
+
+> As a developer, you will be given a design and expected to "translate" it into HTML and CSS - and even further, recognize architectural patterns where grid layouts and flexbox patterns will be utilized.
 
 [My Github](https://github.com/popados) | [Jump to End](#end-of-doc)
 

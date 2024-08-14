@@ -14,23 +14,25 @@
 
 <body>
     <header>
-        <nav>
-            <div class="header-container">
-                <ul class="menu-list-ul">
-                    <a href="#">Minimillista</a>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#"><b>About Us</b></a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li>
-                        <button aria-expanded="false" aria-controls="menu-list">
-                            <span class="open">&#x2630;</span>
-                            <span class="close">&times;</span>
-                            <span>Menu</span>
-                        </button>
-                    </li>
-                </ul>
+        <nav class="header-container">
+            <ul class="menu-list-ul">
 
-            </div>
+                <li><a href="#">Minimillista</a></li>
+
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#"><b>About Us</b></a></li>
+                <li><a href="#">Contact</a></li>
+
+                <li>
+                    <button aria-expanded="false" aria-controls="menu-list">
+                        <span class="open">&#x2630;</span>
+                        <span class="close">&times;</span>
+                        <span>Menu</span>
+                    </button>
+                </li>
+            </ul>
+
         </nav>
     </header>
 
@@ -53,9 +55,12 @@
                 <img class="image" src="./img/portfolio/portfolio-one.png" alt="">
                 <h3>Image 1</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
                 ex ea commodo consequat.</p>
+
         </div>
         <div class="contains-image">
             <div>
@@ -77,37 +82,83 @@
 
     </div>
 
+    <div class="header-tag">
+        <h2>-Our Team-</h2>
+    </div>
     <div class="team-container">
-        <div class="header-tag">
-            <h2>-Our Team-</h2>
-        </div>
         <div class="pictures">
             <div class="contains-pictures">
                 <img src="./img/teammates/teammate-one.png" />
                 <h5>Name</h5>
                 <h6>Role</h6>
                 <p>THIS IS STUFF</p>
+                <div class="icons">
+                    <i class="bi-twitter"> </i>
+                    <i class="bi-facebook"></i>
+                    <i class="bi-google"></i>
+                </div>
             </div>
             <div class="contains-pictures">
                 <img src="./img/teammates/teammate-two.png" />
                 <h5>Name</h5>
                 <h6>Role</h6>
                 <p>THIS IS STUFF</p>
+                <div class="icons">
+                    <i class="bi-twitter"> </i>
+                    <i class="bi-facebook"></i>
+                    <i class="bi-google"></i>
+                </div>
             </div>
             <div class="contains-pictures">
                 <img src="./img/teammates/teammate-three.png" />
                 <h5>Name</h5>
                 <h6>Role</h6>
                 <p>THIS IS STUFF</p>
+                <div class="icons">
+                    <i class="bi-twitter"> </i>
+                    <i class="bi-facebook"></i>
+                    <i class="bi-google"></i>
+                </div>
             </div>
             <div class="contains-pictures">
                 <img src="./img/teammates/teammate-four.png" />
                 <h5>Name</h5>
                 <h6>Role</h6>
                 <p>THIS IS STUFF</p>
+                <div class="icons">
+                    <i class="bi-twitter"> </i>
+                    <i class="bi-facebook"></i>
+                    <i class="bi-google"></i>
+                </div>
             </div>
         </div>
 
+
+    </div>
+    <div class="footer-container">
+        <div>
+            <span> <i class="bi-facebook"> </i> Facebook</span>
+            <span> <i class="bi-instagram"></i> Instagram</span>
+            <span> <i class="bi-linkedin"> </i> LinkedIn</span>
+            <span> <i class="bi-twitter"></i> Twitter</span>
+        </div>
+        <div class="text-container">
+            <div class="footer-text">
+                <p>Company Address</p>
+                <address>Responsive Street 7 London - United Kingdom Europe</address>
+            </div>
+            <div class="footer-text">
+                <p>E-mail</p>
+                <p>contact@yourdomain.com</p>
+                <p>office@yourdomain.com</p>
+            </div>
+            <div class="footer-text">
+                <p>Phone Numbers</p>
+                <p>0800 4521 800 50</p>
+                <p>0800 4521 800 16</p>
+                <p>0800 4521 800 15</p>
+            </div>
+        </div>
 
     </div>
 
@@ -121,7 +172,8 @@
             const expanded = target.getAttribute("aria-expanded") === "true" || false;
             navButton.setAttribute("aria-expanded", !expanded);
         }
-        navButton.addEventListener("click", toggleNav); </script>
+        navButton.addEventListener("click", toggleNav); 
+    </script>
 </body>
 
 </html>
