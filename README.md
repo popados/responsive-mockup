@@ -14,6 +14,17 @@
 
 ## Requirements
 
+**📣 Getting Started:**
+
+- Download the provided mockup
+- Use any image editing software on your computer to: (advised but optional)
+- Draw "grids/flexbox" layouts (boxes) on the mockup where they might me used.
+- Draw "containers" (boxes) where content might be grouped.
+- Most computers have basic software to do this. Apple: Preview / Windows: Paint . You're also welcome to use any Adobe apps or Sketch - whatever gets the job done =)
+- Use your choice of CSS Grid and/or Flexbox for layout.
+- Now that you have visually "mocked up" the mockup with grid and flex layouts - build it 😁
+- At this point you have learned everything you need to replicate this website using HTML and CSS.
+
 **🛠 Requirements:**
 
 - The website MUST resemble the mockup as closely as possible (element spacing/layout, font colors, size, etc).
